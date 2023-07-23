@@ -2,8 +2,7 @@
 class ConfigurationData {
 	public static $tablename = "configuration";
 
-
-	public function ConfigurationData(){
+	public function __construct(){
 		$this->name = "";
 		$this->lastname = "";
 		$this->email = "";

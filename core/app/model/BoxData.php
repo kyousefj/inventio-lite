@@ -2,8 +2,6 @@
 class BoxData {
 	public static $tablename = "box";
 
-
-
 	public function BoxData(){
 		$this->name = "";
 		$this->lastname = "";

@@ -44,7 +44,7 @@
 				<?php
 
 			}
-
+			echo "</table>";
 
 
 		}else{

@@ -1,7 +1,9 @@
 <?php
 
 class lbInputText{
-	public function lbInputText($config){
+	private $config;
+	private $name;
+	public function __construct($config){
 		$this->config = $config;
 
 	}

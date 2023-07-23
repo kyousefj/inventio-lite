@@ -46,7 +46,7 @@
 
 			}
 
-
+			echo "</table>";
 
 		}else{
 			echo "<p class='alert alert-danger'>No hay proveedores</p>";

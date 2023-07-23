@@ -1,7 +1,8 @@
 <?php
 
 class lbForm {
-	public function lbForm(){
+	private $field;
+	public function __construct(){
 		$this->field = array();
 	}
 

@@ -2,9 +2,7 @@
 class CategoryData {
 	public static $tablename = "category";
 
-
-
-	public function CategoryData(){
+	public function __construct(){
 		$this->name = "";
 		$this->lastname = "";
 		$this->email = "";
