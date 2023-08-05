@@ -2,7 +2,7 @@
 class BoxData {
 	public static $tablename = "box";
 
-	public function BoxData(){
+	public function __construct(){
 		$this->name = "";
 		$this->lastname = "";
 		$this->email = "";
