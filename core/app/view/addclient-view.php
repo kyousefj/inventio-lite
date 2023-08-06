@@ -1,6 +1,5 @@
 <?php
-
-if(count($_POST)>0){
+if (count($_POST) > 0) {
 	$user = new PersonData();
 	$user->name = $_POST["name"];
 	$user->lastname = $_POST["lastname"];
@@ -9,10 +8,6 @@ if(count($_POST)>0){
 	$user->phone1 = $_POST["phone1"];
 	$user->add_client();
 
-print "<script>window.location='index.php?view=clients';</script>";
-
-
+	print "<script>window.location='index.php?view=clients';</script>";
 }
-
-
 ?>
